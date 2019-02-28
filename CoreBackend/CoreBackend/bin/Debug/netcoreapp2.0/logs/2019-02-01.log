@@ -1,0 +1,239 @@
+2019-02-01 09:52:33.3496|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/  
+2019-02-01 09:52:34.3045|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 973.9526ms 404 
+2019-02-01 10:01:19.6267|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:46723/api/product/DeleteProduct?id=1 application/json 0
+2019-02-01 10:01:19.9463|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Controllers.ProductController.DeleteProduct (CoreBackend) with arguments (1) - ModelState is Valid
+2019-02-01 10:01:19.9858|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value CoreBackend.Dtos.BaseResponse.
+2019-02-01 10:01:20.1157|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Controllers.ProductController.DeleteProduct (CoreBackend) in 339.8018ms
+2019-02-01 10:01:20.1305|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 502.894ms 200 application/json; charset=utf-8
+2019-02-01 10:13:03.5088|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/  
+2019-02-01 10:13:04.3243|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 913.3826ms 404 
+2019-02-01 10:13:09.3866|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:46723/api/product/DeleteProduct?id=1 application/json 0
+2019-02-01 10:13:09.7959|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Controllers.ProductController.DeleteProduct (CoreBackend) with arguments (1) - ModelState is Valid
+2019-02-01 10:13:09.8418|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value CoreBackend.Dtos.BaseResponse.
+2019-02-01 10:13:09.9915|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Controllers.ProductController.DeleteProduct (CoreBackend) in 429.8488ms
+2019-02-01 10:13:10.0204|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 617.5355ms 200 application/json; charset=utf-8
+2019-02-01 10:15:31.1219|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/  
+2019-02-01 10:15:31.8747|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 794.7408ms 404 
+2019-02-01 10:15:38.6080|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:46723/api/product/DeleteProduct?id=1 application/json 0
+2019-02-01 10:15:39.0931|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Controllers.ProductController.DeleteProduct (CoreBackend) with arguments (1) - ModelState is Valid
+2019-02-01 10:15:39.2550|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value CoreBackend.Dtos.BaseResponse.
+2019-02-01 10:15:39.3892|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Controllers.ProductController.DeleteProduct (CoreBackend) in 594.3012ms
+2019-02-01 10:15:39.4225|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 796.7148ms 200 application/json; charset=utf-8
+2019-02-01 11:51:01.9240|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/  
+2019-02-01 11:51:02.6887|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 791.5959ms 404 
+2019-02-01 13:43:00.8754|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/  
+2019-02-01 13:43:01.9352|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1122.6659ms 404 
+2019-02-01 13:43:36.3320|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/api/test/get application/json 
+2019-02-01 13:43:36.9736|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.3-rtm-10026 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-01 13:43:49.3091|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (426ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [ProductDB];
+2019-02-01 13:43:49.4403|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (119ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5 EXEC(N'ALTER DATABASE [ProductDB] SET READ_COMMITTED_SNAPSHOT ON;');
+2019-02-01 13:43:49.5584|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (53ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [Price] decimal(18, 2) NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id])
+);
+2019-02-01 13:43:49.6645|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Controllers.TestController.Get (CoreBackend) with arguments ((null)) - ModelState is Valid
+2019-02-01 13:43:59.2417|FATAL|CoreBackend.Filter.ExceptionFilter|testException
+2019-02-01 13:43:59.2613|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value CoreBackend.Dtos.BaseResponse.
+2019-02-01 13:43:59.3610|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Controllers.TestController.Get (CoreBackend) in 22924.5503ms
+2019-02-01 13:43:59.3610|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 23041.6326ms 200 application/json; charset=utf-8
+2019-02-01 13:55:51.1992|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/  
+2019-02-01 13:55:51.8069|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 704.7235ms 404 
+2019-02-01 13:56:24.2586|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/api/test/get application/json 
+2019-02-01 13:56:24.2700|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.9078ms 404 
+2019-02-01 13:57:16.4948|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/  
+2019-02-01 13:57:17.0840|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 659.3472ms 404 
+2019-02-01 13:57:22.5705|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/api/test/get application/json 
+2019-02-01 13:57:22.6040|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 18.489ms 404 
+2019-02-01 13:58:05.2390|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/  
+2019-02-01 13:58:05.9530|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1079.0237ms 404 
+2019-02-01 13:58:54.4177|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/api/test/get application/json 
+2019-02-01 13:58:55.0331|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.3-rtm-10026 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-01 13:59:06.0558|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (505ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [ProductDB];
+2019-02-01 13:59:06.1663|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (100ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5 EXEC(N'ALTER DATABASE [ProductDB] SET READ_COMMITTED_SNAPSHOT ON;');
+2019-02-01 13:59:06.2815|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (58ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Price] decimal(8, 2) NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id])
+);
+2019-02-01 13:59:06.3965|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Controllers.TestController.Get (CoreBackend) with arguments ((null)) - ModelState is Valid
+2019-02-01 13:59:09.1487|FATAL|CoreBackend.Filter.ExceptionFilter|testException
+2019-02-01 13:59:09.1895|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value CoreBackend.Dtos.BaseResponse.
+2019-02-01 13:59:09.3355|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Controllers.TestController.Get (CoreBackend) in 14791.3096ms
+2019-02-01 13:59:09.3729|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14930.7891ms 200 application/json; charset=utf-8
+2019-02-01 14:13:05.5503|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.3-rtm-10026 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-01 14:13:05.8223|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2019-02-01 14:20:56.7677|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.3-rtm-10026 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-01 14:20:57.0823|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2019-02-01 14:20:57.0969|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-01 14:20:57.1485|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2019-02-01 14:20:57.1485|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-01 14:20:57.1578|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-02-01 14:20:57.1578|INFO|Microsoft.EntityFrameworkCore.Migrations|Applying migration '20190201061305_ProductInfoDbInitialMigration'.
+2019-02-01 14:20:57.2220|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Price] decimal(8, 2) NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id])
+);
+2019-02-01 14:22:08.5111|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/  
+2019-02-01 14:22:09.0317|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 649.8507ms 404 
+2019-02-01 14:22:35.8269|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/api/test/get application/json 
+2019-02-01 14:22:36.3652|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.3-rtm-10026 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-01 14:22:47.2538|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (390ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [ProductDB];
+2019-02-01 14:22:47.3803|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (114ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5 EXEC(N'ALTER DATABASE [ProductDB] SET READ_COMMITTED_SNAPSHOT ON;');
+2019-02-01 14:22:47.4851|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (47ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2019-02-01 14:22:47.5397|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (41ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-01 14:22:47.5985|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (49ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-02-01 14:22:47.6318|INFO|Microsoft.EntityFrameworkCore.Migrations|Applying migration '20190201061305_ProductInfoDbInitialMigration'.
+2019-02-01 14:22:47.7063|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (43ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Price] decimal(8, 2) NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id])
+);
+2019-02-01 14:22:47.7623|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (46ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20190201061305_ProductInfoDbInitialMigration', N'2.0.3-rtm-10026');
+2019-02-01 14:22:47.8498|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Controllers.TestController.Get (CoreBackend) with arguments ((null)) - ModelState is Valid
+2019-02-01 14:22:50.6587|FATAL|CoreBackend.Filter.ExceptionFilter|testException
+2019-02-01 14:22:50.6808|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value CoreBackend.Dtos.BaseResponse.
+2019-02-01 14:22:50.8248|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Controllers.TestController.Get (CoreBackend) in 14866.8244ms
+2019-02-01 14:22:50.8450|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 15021.3052ms 200 application/json; charset=utf-8
+2019-02-01 14:28:47.4244|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.3-rtm-10026 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-01 14:28:47.7420|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (17ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-01 14:28:47.7420|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-01 14:28:47.7580|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-02-01 14:28:47.7710|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-02-01 14:29:23.8821|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.3-rtm-10026 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-01 14:29:24.1370|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-01 14:29:24.1370|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-01 14:29:24.1471|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-02-01 14:29:24.1471|INFO|Microsoft.EntityFrameworkCore.Migrations|Applying migration '20190201062847_AddDescriptionToProduct'.
+2019-02-01 14:29:24.1703|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+ALTER TABLE [Products] ADD [Description] nvarchar(200) NULL;
+2019-02-01 14:29:24.1729|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20190201062847_AddDescriptionToProduct', N'2.0.3-rtm-10026');
+2019-02-01 14:29:24.1729|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-01 14:29:24.1729|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-01 14:29:24.1886|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-02-01 14:29:24.1886|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-02-01 14:51:35.6146|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/  
+2019-02-01 14:51:36.2914|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 769.7648ms 404 
+2019-02-01 16:20:49.9748|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (37ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Products] AS [p])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2019-02-01 16:20:50.3662|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (119ms) [Parameters=[@p0='?' (Size = 200), @p1='?' (Size = 50), @p2='?', @p3='?' (Size = 200), @p4='?' (Size = 50), @p5='?', @p6='?' (Size = 200), @p7='?' (Size = 50), @p8='?'], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @inserted0 TABLE ([Id] int, [_Position] [int]);
+MERGE [Products] USING (
+VALUES (@p0, @p1, @p2, 0),
+(@p3, @p4, @p5, 1),
+(@p6, @p7, @p8, 2)) AS i ([Description], [Name], [Price], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Description], [Name], [Price])
+VALUES (i.[Description], i.[Name], i.[Price])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [t].[Id] FROM [Products] t
+INNER JOIN @inserted0 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];
+2019-02-01 16:20:52.5097|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/  
+2019-02-01 16:20:53.0195|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 503.3294ms 404 
+2019-02-01 17:08:50.8837|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Products] AS [p])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2019-02-01 17:08:51.1129|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.3-rtm-10026 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-01 17:08:51.1413|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-01 17:08:51.1445|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-01 17:08:51.1445|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-02-01 17:08:51.1445|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-02-01 17:13:26.3631|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Products] AS [p])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2019-02-01 17:13:26.6140|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.3-rtm-10026 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-01 17:13:26.6443|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (22ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-01 17:13:26.6581|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-01 17:13:26.6769|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-02-01 17:13:26.6769|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-02-01 17:14:05.6095|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Products] AS [p])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2019-02-01 17:14:07.8494|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/  
+2019-02-01 17:14:08.2808|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 517.224ms 404 

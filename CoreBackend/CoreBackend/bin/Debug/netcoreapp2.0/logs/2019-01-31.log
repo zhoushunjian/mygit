@@ -1,0 +1,16 @@
+2019-01-31 15:24:43.7607|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/  
+2019-01-31 15:24:44.7174|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1006.2956ms 404 
+2019-01-31 15:25:28.4942|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/api/product/getproduct?id=10 application/json 
+2019-01-31 15:25:28.8030|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Controllers.ProductController.GetProduct (CoreBackend) with arguments (10) - ModelState is Valid
+2019-01-31 15:25:28.8425|INFO|CoreBackend.Controllers.ProductController|testLog
+2019-01-31 15:25:31.8974|FATAL|CoreBackend.Filter.ExceptionFilter|testException
+2019-01-31 15:25:31.9202|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value CoreBackend.Dtos.BaseResponse.
+2019-01-31 15:25:32.0424|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Controllers.ProductController.GetProduct (CoreBackend) in 3420.588ms
+2019-01-31 15:25:32.0540|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3559.2381ms 200 application/json; charset=utf-8
+2019-01-31 16:06:28.8099|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/  
+2019-01-31 16:06:29.6920|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1078.747ms 404 
+2019-01-31 16:06:48.4480|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:46723/api/product/DeleteProduct?id=1 application/json 0
+2019-01-31 16:06:48.7356|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Controllers.ProductController.DeleteProduct (CoreBackend) with arguments (1) - ModelState is Valid
+2019-01-31 16:06:48.7681|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value CoreBackend.Dtos.BaseResponse.
+2019-01-31 16:06:48.9416|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Controllers.ProductController.DeleteProduct (CoreBackend) in 356.8048ms
+2019-01-31 16:06:48.9416|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 508.2059ms 200 application/json; charset=utf-8

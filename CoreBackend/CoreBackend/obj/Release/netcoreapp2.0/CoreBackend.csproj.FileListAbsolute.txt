@@ -1,0 +1,11 @@
+C:\Users\zhoushunjian\OneDrive\core\CoreBackend\CoreBackend\bin\Release\netcoreapp2.0\CoreBackend.deps.json
+C:\Users\zhoushunjian\OneDrive\core\CoreBackend\CoreBackend\bin\Release\netcoreapp2.0\CoreBackend.runtimeconfig.json
+C:\Users\zhoushunjian\OneDrive\core\CoreBackend\CoreBackend\bin\Release\netcoreapp2.0\CoreBackend.runtimeconfig.dev.json
+C:\Users\zhoushunjian\OneDrive\core\CoreBackend\CoreBackend\bin\Release\netcoreapp2.0\CoreBackend.dll
+C:\Users\zhoushunjian\OneDrive\core\CoreBackend\CoreBackend\bin\Release\netcoreapp2.0\CoreBackend.pdb
+C:\Users\zhoushunjian\OneDrive\core\CoreBackend\CoreBackend\obj\Release\netcoreapp2.0\CoreBackend.csprojAssemblyReference.cache
+C:\Users\zhoushunjian\OneDrive\core\CoreBackend\CoreBackend\obj\Release\netcoreapp2.0\CoreBackend.csproj.CoreCompileInputs.cache
+C:\Users\zhoushunjian\OneDrive\core\CoreBackend\CoreBackend\obj\Release\netcoreapp2.0\CoreBackend.AssemblyInfoInputs.cache
+C:\Users\zhoushunjian\OneDrive\core\CoreBackend\CoreBackend\obj\Release\netcoreapp2.0\CoreBackend.AssemblyInfo.cs
+C:\Users\zhoushunjian\OneDrive\core\CoreBackend\CoreBackend\obj\Release\netcoreapp2.0\CoreBackend.dll
+C:\Users\zhoushunjian\OneDrive\core\CoreBackend\CoreBackend\obj\Release\netcoreapp2.0\CoreBackend.pdb

@@ -1,0 +1,921 @@
+2019-02-02 10:01:23.4698|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (41ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Products] AS [p])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2019-02-02 10:01:26.6022|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/  
+2019-02-02 10:01:27.4625|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 843.999ms 404 
+2019-02-02 10:01:37.2905|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/api/product/getproducts application/json 
+2019-02-02 10:01:37.4576|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.3-rtm-10026 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-02 10:01:37.5510|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (63ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-02 10:01:37.6037|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (40ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-02 10:01:37.6638|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (47ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-02-02 10:01:37.6797|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-02-02 10:01:37.7975|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Controllers.ProductController.GetProducts (CoreBackend) with arguments ((null)) - ModelState is Valid
+2019-02-02 10:02:14.8058|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (39ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Products] AS [p])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2019-02-02 10:02:16.9929|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/  
+2019-02-02 10:02:17.5234|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 547.631ms 404 
+2019-02-02 10:02:23.9527|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/api/product/getproducts application/json 
+2019-02-02 10:02:24.1068|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.3-rtm-10026 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-02 10:02:24.2076|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (89ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-02 10:02:24.2581|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (38ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-02 10:02:24.3213|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (49ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-02-02 10:02:24.3371|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-02-02 10:02:24.4823|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Controllers.ProductController.GetProducts (CoreBackend) with arguments ((null)) - ModelState is Valid
+2019-02-02 10:02:24.6119|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (68ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Description], [x].[Name], [x].[Price]
+FROM [Products] AS [x]
+ORDER BY [x].[Name]
+2019-02-02 10:02:24.7249|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value CoreBackend.Dtos.BaseResponse`1[System.Collections.Generic.List`1[CoreBackend.Dtos.ProductWithoutMaterialDto]].
+2019-02-02 10:02:24.9018|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Controllers.ProductController.GetProducts (CoreBackend) in 825.9608ms
+2019-02-02 10:02:24.9636|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 962.5557ms 200 application/json; charset=utf-8
+2019-02-02 11:13:49.5789|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (38ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Products] AS [p])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2019-02-02 11:13:51.5675|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/  
+2019-02-02 11:13:52.3541|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 779.6208ms 404 
+2019-02-02 11:14:04.4295|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/api/product/getproduct?id=2 application/json 
+2019-02-02 11:14:04.5718|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.3-rtm-10026 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-02 11:14:04.6677|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (79ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-02 11:14:04.7133|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-02 11:14:04.7612|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-02-02 11:14:04.7800|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-02-02 11:14:04.9633|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Controllers.ProductController.GetProduct (CoreBackend) with arguments (2, False) - ModelState is Valid
+2019-02-02 11:14:05.1534|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (105ms) [Parameters=[@__get_Item_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Description], [e].[Name], [e].[Price]
+FROM [Products] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2019-02-02 11:14:05.2780|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value CoreBackend.Dtos.BaseResponse`1[CoreBackend.Dtos.ProductDto].
+2019-02-02 11:14:05.4238|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Controllers.ProductController.GetProduct (CoreBackend) in 868.0037ms
+2019-02-02 11:14:05.4446|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1010.8909ms 200 application/json; charset=utf-8
+2019-02-02 11:14:21.3675|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/api/product/getproduct?id=2&includematerial=1 application/json 
+2019-02-02 11:14:21.3804|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.3-rtm-10026 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-02 11:14:21.4435|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-02 11:14:21.5118|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (36ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-02 11:14:21.5559|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (33ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-02-02 11:14:21.5655|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-02-02 11:14:25.6252|FATAL|CoreBackend.Filter.ExceptionFilter|testException
+2019-02-02 11:14:25.6371|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value CoreBackend.Dtos.BaseResponse.
+2019-02-02 11:14:25.6511|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Controllers.ProductController.GetProduct (CoreBackend) in 4271.0728ms
+2019-02-02 11:14:25.6635|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4294.1902ms 200 application/json; charset=utf-8
+2019-02-02 11:14:30.5047|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/api/product/getproduct?id=2&includematerial=true application/json 
+2019-02-02 11:14:30.5047|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.3-rtm-10026 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-02 11:14:30.5555|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-02 11:14:30.5965|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (31ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-02 11:14:30.6376|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (30ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-02-02 11:14:30.6499|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-02-02 11:14:30.6988|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Controllers.ProductController.GetProduct (CoreBackend) with arguments (2, True) - ModelState is Valid
+2019-02-02 11:14:30.8915|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (48ms) [Parameters=[@__productId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [x].[Id], [x].[Description], [x].[Name], [x].[Price]
+FROM [Products] AS [x]
+WHERE [x].[Id] = @__productId_0
+ORDER BY [x].[Id]
+2019-02-02 11:14:31.0786|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (63ms) [Parameters=[@__productId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x.Materials].[Id], [x.Materials].[Name], [x.Materials].[ProductId]
+FROM [Materials] AS [x.Materials]
+INNER JOIN (
+    SELECT TOP(1) [x0].[Id]
+    FROM [Products] AS [x0]
+    WHERE [x0].[Id] = @__productId_0
+    ORDER BY [x0].[Id]
+) AS [t] ON [x.Materials].[ProductId] = [t].[Id]
+ORDER BY [t].[Id]
+2019-02-02 11:14:31.2440|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred in the database while iterating the results of a query for context type 'CoreBackend.Entity.MyContext'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Materials'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryBuffer.IncludeCollection(Int32 includeId, INavigation navigation, INavigation inverseNavigation, IEntityType targetEntityType, IClrCollectionAccessor clrCollectionAccessor, IClrPropertySetter inverseClrPropertySetter, Boolean tracking, Object entity, Func`1 relatedEntitiesFactory)
+   at lambda_method(Closure , QueryContext , Product , Object[] )
+   at Microsoft.EntityFrameworkCore.Query.Internal.IncludeCompiler._Include[TEntity](QueryContext queryContext, TEntity entity, Object[] included, Action`3 fixup)
+   at lambda_method(Closure , Product )
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)
+ClientConnectionId:4861933a-1b41-476b-8ec9-1caad2a3b2e2
+Error Number:208,State:1,Class:16
+2019-02-02 11:14:45.1192|FATAL|CoreBackend.Filter.ExceptionFilter|testException
+2019-02-02 11:14:45.1282|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value CoreBackend.Dtos.BaseResponse.
+2019-02-02 11:14:45.1282|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Controllers.ProductController.GetProduct (CoreBackend) in 14624.987ms
+2019-02-02 11:14:45.1541|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14644.6842ms 200 application/json; charset=utf-8
+2019-02-02 11:15:13.1463|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/api/product/getproduct?id=2&includematerial=true application/json 
+2019-02-02 11:15:13.1634|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.3-rtm-10026 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-02 11:15:13.2511|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (52ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-02 11:15:13.3087|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (44ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-02 11:15:13.3518|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (31ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-02-02 11:15:13.3858|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-02-02 11:15:13.4388|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Controllers.ProductController.GetProduct (CoreBackend) with arguments (2, True) - ModelState is Valid
+2019-02-02 11:15:16.2744|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (86ms) [Parameters=[@__productId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [x].[Id], [x].[Description], [x].[Name], [x].[Price]
+FROM [Products] AS [x]
+WHERE [x].[Id] = @__productId_0
+ORDER BY [x].[Id]
+2019-02-02 11:15:16.3750|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (56ms) [Parameters=[@__productId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x.Materials].[Id], [x.Materials].[Name], [x.Materials].[ProductId]
+FROM [Materials] AS [x.Materials]
+INNER JOIN (
+    SELECT TOP(1) [x0].[Id]
+    FROM [Products] AS [x0]
+    WHERE [x0].[Id] = @__productId_0
+    ORDER BY [x0].[Id]
+) AS [t] ON [x.Materials].[ProductId] = [t].[Id]
+ORDER BY [t].[Id]
+2019-02-02 11:15:16.5454|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred in the database while iterating the results of a query for context type 'CoreBackend.Entity.MyContext'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Materials'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryBuffer.IncludeCollection(Int32 includeId, INavigation navigation, INavigation inverseNavigation, IEntityType targetEntityType, IClrCollectionAccessor clrCollectionAccessor, IClrPropertySetter inverseClrPropertySetter, Boolean tracking, Object entity, Func`1 relatedEntitiesFactory)
+   at lambda_method(Closure , QueryContext , Product , Object[] )
+   at Microsoft.EntityFrameworkCore.Query.Internal.IncludeCompiler._Include[TEntity](QueryContext queryContext, TEntity entity, Object[] included, Action`3 fixup)
+   at lambda_method(Closure , Product )
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)
+ClientConnectionId:4861933a-1b41-476b-8ec9-1caad2a3b2e2
+Error Number:208,State:1,Class:16
+2019-02-02 11:15:34.0903|FATAL|CoreBackend.Filter.ExceptionFilter|testException
+2019-02-02 11:15:34.1011|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value CoreBackend.Dtos.BaseResponse.
+2019-02-02 11:15:34.1347|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Controllers.ProductController.GetProduct (CoreBackend) in 20974.5958ms
+2019-02-02 11:15:34.1578|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 21004.2866ms 200 application/json; charset=utf-8
+2019-02-02 11:15:36.6913|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/api/product/getproduct?id=2&includematerial=true application/json 
+2019-02-02 11:15:36.6913|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.3-rtm-10026 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-02 11:15:36.7428|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (30ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-02 11:15:36.7809|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (29ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-02 11:15:36.8230|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (31ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-02-02 11:15:36.8345|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-02-02 11:15:36.8778|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Controllers.ProductController.GetProduct (CoreBackend) with arguments (2, True) - ModelState is Valid
+2019-02-02 11:16:17.5773|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (58ms) [Parameters=[@__productId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [x].[Id], [x].[Description], [x].[Name], [x].[Price]
+FROM [Products] AS [x]
+WHERE [x].[Id] = @__productId_0
+ORDER BY [x].[Id]
+2019-02-02 11:16:17.7240|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (89ms) [Parameters=[@__productId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x.Materials].[Id], [x.Materials].[Name], [x.Materials].[ProductId]
+FROM [Materials] AS [x.Materials]
+INNER JOIN (
+    SELECT TOP(1) [x0].[Id]
+    FROM [Products] AS [x0]
+    WHERE [x0].[Id] = @__productId_0
+    ORDER BY [x0].[Id]
+) AS [t] ON [x.Materials].[ProductId] = [t].[Id]
+ORDER BY [t].[Id]
+2019-02-02 11:16:17.9446|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred in the database while iterating the results of a query for context type 'CoreBackend.Entity.MyContext'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Materials'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryBuffer.IncludeCollection(Int32 includeId, INavigation navigation, INavigation inverseNavigation, IEntityType targetEntityType, IClrCollectionAccessor clrCollectionAccessor, IClrPropertySetter inverseClrPropertySetter, Boolean tracking, Object entity, Func`1 relatedEntitiesFactory)
+   at lambda_method(Closure , QueryContext , Product , Object[] )
+   at Microsoft.EntityFrameworkCore.Query.Internal.IncludeCompiler._Include[TEntity](QueryContext queryContext, TEntity entity, Object[] included, Action`3 fixup)
+   at lambda_method(Closure , Product )
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)
+ClientConnectionId:4861933a-1b41-476b-8ec9-1caad2a3b2e2
+Error Number:208,State:1,Class:16
+2019-02-02 11:16:28.9489|FATAL|CoreBackend.Filter.ExceptionFilter|testException
+2019-02-02 11:16:28.9613|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value CoreBackend.Dtos.BaseResponse.
+2019-02-02 11:16:28.9926|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Controllers.ProductController.GetProduct (CoreBackend) in 52291.5091ms
+2019-02-02 11:16:29.0095|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 52320.4095ms 200 application/json; charset=utf-8
+2019-02-02 11:19:16.4176|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (80ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Products] AS [p])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2019-02-02 11:19:16.9792|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (154ms) [Parameters=[@p0='?' (Size = 200), @p1='?' (Size = 50), @p2='?', @p3='?' (Size = 200), @p4='?' (Size = 50), @p5='?', @p6='?' (Size = 200), @p7='?' (Size = 50), @p8='?'], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @inserted0 TABLE ([Id] int, [_Position] [int]);
+MERGE [Products] USING (
+VALUES (@p0, @p1, @p2, 0),
+(@p3, @p4, @p5, 1),
+(@p6, @p7, @p8, 2)) AS i ([Description], [Name], [Price], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Description], [Name], [Price])
+VALUES (i.[Description], i.[Name], i.[Price])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [t].[Id] FROM [Products] t
+INNER JOIN @inserted0 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];
+2019-02-02 11:19:17.1674|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (36ms) [Parameters=[@p9='?' (Size = 50), @p10='?', @p11='?' (Size = 50), @p12='?', @p13='?' (Size = 50), @p14='?', @p15='?' (Size = 50), @p16='?', @p17='?' (Size = 50), @p18='?', @p19='?' (Size = 50), @p20='?'], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @inserted0 TABLE ([Id] int, [_Position] [int]);
+MERGE [Materials] USING (
+VALUES (@p9, @p10, 0),
+(@p11, @p12, 1),
+(@p13, @p14, 2),
+(@p15, @p16, 3),
+(@p17, @p18, 4),
+(@p19, @p20, 5)) AS i ([Name], [ProductId], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Name], [ProductId])
+VALUES (i.[Name], i.[ProductId])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [t].[Id] FROM [Materials] t
+INNER JOIN @inserted0 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];
+2019-02-02 11:19:17.2795|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'CoreBackend.Entity.MyContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Invalid object name 'Materials'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(Tuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2019-02-02 11:19:41.1305|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2019-02-02 11:20:12.8991|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (41ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Products] AS [p])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2019-02-02 11:20:13.2797|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (85ms) [Parameters=[@p0='?' (Size = 200), @p1='?' (Size = 50), @p2='?', @p3='?' (Size = 200), @p4='?' (Size = 50), @p5='?', @p6='?' (Size = 200), @p7='?' (Size = 50), @p8='?'], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @inserted0 TABLE ([Id] int, [_Position] [int]);
+MERGE [Products] USING (
+VALUES (@p0, @p1, @p2, 0),
+(@p3, @p4, @p5, 1),
+(@p6, @p7, @p8, 2)) AS i ([Description], [Name], [Price], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Description], [Name], [Price])
+VALUES (i.[Description], i.[Name], i.[Price])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [t].[Id] FROM [Products] t
+INNER JOIN @inserted0 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];
+2019-02-02 11:20:13.4878|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (38ms) [Parameters=[@p9='?' (Size = 50), @p10='?', @p11='?' (Size = 50), @p12='?', @p13='?' (Size = 50), @p14='?', @p15='?' (Size = 50), @p16='?', @p17='?' (Size = 50), @p18='?', @p19='?' (Size = 50), @p20='?'], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @inserted0 TABLE ([Id] int, [_Position] [int]);
+MERGE [Materials] USING (
+VALUES (@p9, @p10, 0),
+(@p11, @p12, 1),
+(@p13, @p14, 2),
+(@p15, @p16, 3),
+(@p17, @p18, 4),
+(@p19, @p20, 5)) AS i ([Name], [ProductId], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Name], [ProductId])
+VALUES (i.[Name], i.[ProductId])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [t].[Id] FROM [Materials] t
+INNER JOIN @inserted0 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];
+2019-02-02 11:20:13.6389|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'CoreBackend.Entity.MyContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Invalid object name 'Materials'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(Tuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2019-02-02 11:20:26.5347|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2019-02-02 11:22:47.5893|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (31ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Products] AS [p])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2019-02-02 11:22:48.1176|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (94ms) [Parameters=[@p0='?' (Size = 50), @p1='?', @p2='?' (Size = 50), @p3='?', @p4='?' (Size = 50), @p5='?', @p6='?' (Size = 50), @p7='?', @p8='?' (Size = 50), @p9='?', @p10='?' (Size = 50), @p11='?', @p12='?' (Size = 200), @p13='?' (Size = 50), @p14='?', @p15='?' (Size = 200), @p16='?' (Size = 50), @p17='?', @p18='?' (Size = 200), @p19='?' (Size = 50), @p20='?'], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @inserted0 TABLE ([Id] int, [_Position] [int]);
+MERGE [Materials] USING (
+VALUES (@p0, @p1, 0),
+(@p2, @p3, 1),
+(@p4, @p5, 2),
+(@p6, @p7, 3),
+(@p8, @p9, 4),
+(@p10, @p11, 5)) AS i ([Name], [ProductId], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Name], [ProductId])
+VALUES (i.[Name], i.[ProductId])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [t].[Id] FROM [Materials] t
+INNER JOIN @inserted0 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];
+
+DECLARE @inserted6 TABLE ([Id] int, [_Position] [int]);
+MERGE [Products] USING (
+VALUES (@p12, @p13, @p14, 0),
+(@p15, @p16, @p17, 1),
+(@p18, @p19, @p20, 2)) AS i ([Description], [Name], [Price], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Description], [Name], [Price])
+VALUES (i.[Description], i.[Name], i.[Price])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted6;
+
+SELECT [t].[Id] FROM [Products] t
+INNER JOIN @inserted6 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];
+2019-02-02 11:22:48.2788|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'CoreBackend.Entity.MyContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Invalid object name 'Materials'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(Tuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2019-02-02 11:24:29.0573|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (30ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Products] AS [p])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2019-02-02 11:24:29.4286|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Materials] AS [m])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2019-02-02 11:24:29.5887|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred in the database while iterating the results of a query for context type 'CoreBackend.Entity.MyContext'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Materials'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.QueryMethodProvider.GetResult[TResult](IEnumerable`1 valueBuffers, Boolean throwOnNullResult)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)
+ClientConnectionId:86c833e6-4b9a-4a79-a06b-09a83dadc9a9
+Error Number:208,State:1,Class:16
+2019-02-02 11:25:41.7543|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (36ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Products] AS [p])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2019-02-02 11:25:42.0724|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (86ms) [Parameters=[@p0='?' (Size = 200), @p1='?' (Size = 50), @p2='?', @p3='?' (Size = 200), @p4='?' (Size = 50), @p5='?', @p6='?' (Size = 200), @p7='?' (Size = 50), @p8='?'], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @inserted0 TABLE ([Id] int, [_Position] [int]);
+MERGE [Products] USING (
+VALUES (@p0, @p1, @p2, 0),
+(@p3, @p4, @p5, 1),
+(@p6, @p7, @p8, 2)) AS i ([Description], [Name], [Price], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Description], [Name], [Price])
+VALUES (i.[Description], i.[Name], i.[Price])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [t].[Id] FROM [Products] t
+INNER JOIN @inserted0 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];
+2019-02-02 11:25:44.1046|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/  
+2019-02-02 11:25:44.6076|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 713.9897ms 404 
+2019-02-02 11:26:32.2239|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (29ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Materials] AS [m])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2019-02-02 11:26:32.5253|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred in the database while iterating the results of a query for context type 'CoreBackend.Entity.MyContext'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Materials'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.QueryMethodProvider.GetResult[TResult](IEnumerable`1 valueBuffers, Boolean throwOnNullResult)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass17_1`1.<CompileQueryCore>b__0(QueryContext qc)
+ClientConnectionId:a8b96096-438e-4252-89d9-74d0481e2485
+Error Number:208,State:1,Class:16
+2019-02-02 11:28:26.1929|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2019-02-02 11:28:41.5842|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (43ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Materials] AS [m])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2019-02-02 11:28:44.2691|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (81ms) [Parameters=[@p0='?' (Size = 50), @p1='?', @p2='?' (Size = 50), @p3='?', @p4='?' (Size = 50), @p5='?', @p6='?' (Size = 50), @p7='?', @p8='?' (Size = 50), @p9='?', @p10='?' (Size = 50), @p11='?'], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @inserted0 TABLE ([Id] int, [_Position] [int]);
+MERGE [Materials] USING (
+VALUES (@p0, @p1, 0),
+(@p2, @p3, 1),
+(@p4, @p5, 2),
+(@p6, @p7, 3),
+(@p8, @p9, 4),
+(@p10, @p11, 5)) AS i ([Name], [ProductId], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Name], [ProductId])
+VALUES (i.[Name], i.[ProductId])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [t].[Id] FROM [Materials] t
+INNER JOIN @inserted0 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];
+2019-02-02 11:28:44.4169|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'CoreBackend.Entity.MyContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The MERGE statement conflicted with the FOREIGN KEY constraint "FK_Material_Products_ProductId". The conflict occurred in database "ProductDB", table "dbo.Products", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(Tuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2019-02-02 11:29:42.2060|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (26ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Materials] AS [m])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2019-02-02 11:29:44.8720|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (77ms) [Parameters=[@p0='?' (Size = 200), @p1='?' (Size = 50), @p2='?', @p3='?' (Size = 200), @p4='?' (Size = 50), @p5='?', @p6='?' (Size = 200), @p7='?' (Size = 50), @p8='?'], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @inserted0 TABLE ([Id] int, [_Position] [int]);
+MERGE [Products] USING (
+VALUES (@p0, @p1, @p2, 0),
+(@p3, @p4, @p5, 1),
+(@p6, @p7, @p8, 2)) AS i ([Description], [Name], [Price], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Description], [Name], [Price])
+VALUES (i.[Description], i.[Name], i.[Price])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [t].[Id] FROM [Products] t
+INNER JOIN @inserted0 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];
+2019-02-02 11:29:44.9309|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (31ms) [Parameters=[@p9='?' (Size = 50), @p10='?', @p11='?' (Size = 50), @p12='?', @p13='?' (Size = 50), @p14='?', @p15='?' (Size = 50), @p16='?', @p17='?' (Size = 50), @p18='?', @p19='?' (Size = 50), @p20='?'], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @inserted0 TABLE ([Id] int, [_Position] [int]);
+MERGE [Materials] USING (
+VALUES (@p9, @p10, 0),
+(@p11, @p12, 1),
+(@p13, @p14, 2),
+(@p15, @p16, 3),
+(@p17, @p18, 4),
+(@p19, @p20, 5)) AS i ([Name], [ProductId], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Name], [ProductId])
+VALUES (i.[Name], i.[ProductId])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [t].[Id] FROM [Materials] t
+INNER JOIN @inserted0 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];
+2019-02-02 11:29:49.9656|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/  
+2019-02-02 11:29:50.3726|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 456.6699ms 404 
+2019-02-02 11:30:38.5591|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/api/product/getproduct?id=2&includematerial=true/get application/json 
+2019-02-02 11:30:38.6962|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.3-rtm-10026 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-02 11:30:38.8044|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (78ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-02 11:30:38.8549|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (37ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-02 11:30:38.8979|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (31ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-02-02 11:30:38.9129|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-02-02 11:30:45.2300|FATAL|CoreBackend.Filter.ExceptionFilter|testException
+2019-02-02 11:30:45.2509|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value CoreBackend.Dtos.BaseResponse.
+2019-02-02 11:30:45.3682|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Controllers.ProductController.GetProduct (CoreBackend) in 6692.8206ms
+2019-02-02 11:30:45.3811|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6819.9141ms 200 application/json; charset=utf-8
+2019-02-02 11:30:55.8262|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/api/product/getproduct?id=2&includematerial=true/get application/json 
+2019-02-02 11:30:55.8483|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.3-rtm-10026 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-02 11:30:55.8939|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-02 11:30:55.9634|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (60ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-02 11:30:56.0215|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (46ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-02-02 11:30:56.0336|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-02-02 11:31:04.8042|FATAL|CoreBackend.Filter.ExceptionFilter|testException
+2019-02-02 11:31:04.8226|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value CoreBackend.Dtos.BaseResponse.
+2019-02-02 11:31:04.8442|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Controllers.ProductController.GetProduct (CoreBackend) in 8991.3924ms
+2019-02-02 11:31:04.8766|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9031.1586ms 200 application/json; charset=utf-8
+2019-02-02 11:31:06.9767|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/api/product/getproduct?id=2&includematerial=true application/json 
+2019-02-02 11:31:06.9767|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.3-rtm-10026 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-02 11:31:07.0243|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (30ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-02 11:31:07.0629|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (29ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-02 11:31:07.1044|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-02-02 11:31:07.1130|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-02-02 11:31:07.2194|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Controllers.ProductController.GetProduct (CoreBackend) with arguments (2, True) - ModelState is Valid
+2019-02-02 11:31:11.3211|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (46ms) [Parameters=[@__productId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [x].[Id], [x].[Description], [x].[Name], [x].[Price]
+FROM [Products] AS [x]
+WHERE [x].[Id] = @__productId_0
+ORDER BY [x].[Id]
+2019-02-02 11:31:11.3348|INFO|CoreBackend.Controllers.ProductController|testLog
+2019-02-02 11:31:14.2502|FATAL|CoreBackend.Filter.ExceptionFilter|testException
+2019-02-02 11:31:14.2656|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value CoreBackend.Dtos.BaseResponse.
+2019-02-02 11:31:14.2808|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Controllers.ProductController.GetProduct (CoreBackend) in 7290.4899ms
+2019-02-02 11:31:14.2983|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7312.702ms 200 application/json; charset=utf-8
+2019-02-02 11:31:19.0161|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/api/product/getproduct?id=14&includematerial=true application/json 
+2019-02-02 11:31:19.0344|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.3-rtm-10026 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-02 11:31:19.0711|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (28ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-02 11:31:19.1084|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (29ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-02 11:31:19.1536|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-02-02 11:31:19.1691|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-02-02 11:31:19.2180|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Controllers.ProductController.GetProduct (CoreBackend) with arguments (14, True) - ModelState is Valid
+2019-02-02 11:31:21.3803|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (44ms) [Parameters=[@__productId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [x].[Id], [x].[Description], [x].[Name], [x].[Price]
+FROM [Products] AS [x]
+WHERE [x].[Id] = @__productId_0
+ORDER BY [x].[Id]
+2019-02-02 11:31:21.4646|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (53ms) [Parameters=[@__productId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [x.Materials].[Id], [x.Materials].[Name], [x.Materials].[ProductId]
+FROM [Materials] AS [x.Materials]
+INNER JOIN (
+    SELECT TOP(1) [x0].[Id]
+    FROM [Products] AS [x0]
+    WHERE [x0].[Id] = @__productId_0
+    ORDER BY [x0].[Id]
+) AS [t] ON [x.Materials].[ProductId] = [t].[Id]
+ORDER BY [t].[Id]
+2019-02-02 11:31:21.4905|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value CoreBackend.Dtos.BaseResponse`1[CoreBackend.Dtos.ProductDto].
+2019-02-02 11:31:21.5191|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Controllers.ProductController.GetProduct (CoreBackend) in 2490.3374ms
+2019-02-02 11:31:21.5191|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2521.4432ms 200 application/json; charset=utf-8
+2019-02-02 13:59:27.2942|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (40ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Materials] AS [m])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2019-02-02 13:59:29.7360|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/  
+2019-02-02 13:59:30.4472|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 709.588ms 404 
+2019-02-02 14:00:31.0314|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/index.html  
+2019-02-02 14:00:31.2177|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 213.7519ms 200 text/html
+2019-02-02 14:00:31.2614|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/swagger-ui-bundle.js  
+2019-02-02 14:00:31.2953|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/swagger-ui-standalone-preset.js  
+2019-02-02 14:00:31.2990|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/swagger-ui.css  
+2019-02-02 14:00:31.3354|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2019-02-02 14:00:31.3354|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2019-02-02 14:00:31.3354|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-02-02 14:00:31.4801|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 97.4741ms 200 text/css
+2019-02-02 14:00:31.5483|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 201.8245ms 200 application/javascript
+2019-02-02 14:00:31.5483|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 273.0932ms 200 application/javascript
+2019-02-02 14:00:32.1264|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/v1/swagger.json  
+2019-02-02 14:00:32.1567|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 19.3888ms 404 
+2019-02-02 14:00:32.1983|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/favicon-32x32.png  
+2019-02-02 14:00:32.2183|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2019-02-02 14:00:32.2411|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 36.913ms 200 image/png
+2019-02-02 14:00:32.2660|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/favicon-16x16.png  
+2019-02-02 14:00:32.2976|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2019-02-02 14:00:32.3240|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 58.5492ms 200 image/png
+2019-02-02 14:06:05.6896|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (43ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Materials] AS [m])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2019-02-02 14:06:07.7432|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/  
+2019-02-02 14:06:08.2735|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 515.1788ms 404 
+2019-02-02 14:06:17.7948|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/index.html  
+2019-02-02 14:06:18.1497|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 252.9169ms 200 text/html
+2019-02-02 14:06:19.0427|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/v1/swagger.json  
+2019-02-02 14:06:19.3554|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2019-02-02 14:06:19.4984|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 523.7664ms 500 text/html; charset=utf-8
+2019-02-02 14:10:00.5770|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (44ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Materials] AS [m])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2019-02-02 14:10:02.3377|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/  
+2019-02-02 14:10:40.6523|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (48ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Materials] AS [m])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2019-02-02 14:10:42.7891|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/  
+2019-02-02 14:10:43.6749|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 943.0356ms 404 
+2019-02-02 14:10:52.6086|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/index.html  
+2019-02-02 14:10:53.0322|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 299.9665ms 200 text/html
+2019-02-02 14:10:53.5536|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/v1/swagger.json  
+2019-02-02 14:10:54.2552|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2019-02-02 14:10:54.6048|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1144.9097ms 500 text/html; charset=utf-8
+2019-02-02 14:36:34.5572|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (79ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Materials] AS [m])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2019-02-02 14:36:35.2325|FATAL|Microsoft.AspNetCore.Server.Kestrel|Unable to start Kestrel.
+2019-02-02 14:37:15.5224|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (38ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Materials] AS [m])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2019-02-02 14:37:16.0938|FATAL|Microsoft.AspNetCore.Server.Kestrel|Unable to start Kestrel.
+2019-02-02 14:38:11.8574|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/  
+2019-02-02 14:38:12.7081|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 887.1013ms 404 
+2019-02-02 14:38:24.2478|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/v1/swagger.json  
+2019-02-02 14:38:24.4205|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2019-02-02 14:38:24.5263|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 279.9153ms 500 text/html; charset=utf-8
+2019-02-02 14:38:24.6382|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/favicon.ico  
+2019-02-02 14:38:24.6653|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 25.8734ms 404 
+2019-02-02 14:40:12.0272|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/  
+2019-02-02 14:40:12.0624|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 39.5918ms 301 
+2019-02-02 14:40:12.1067|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/index.html  
+2019-02-02 14:40:12.2957|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 184.1767ms 200 text/html
+2019-02-02 14:40:12.6944|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/v1/swagger.json  
+2019-02-02 14:40:12.8227|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2019-02-02 14:40:12.9144|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 189.4845ms 500 text/html; charset=utf-8
+2019-02-02 14:40:31.8466|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/index.html  
+2019-02-02 14:40:31.8658|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 34.4375ms 200 text/html
+2019-02-02 14:40:32.1675|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/v1/swagger.json  
+2019-02-02 14:40:32.1858|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/favicon-32x32.png  
+2019-02-02 14:40:32.2946|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2019-02-02 14:40:32.3115|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2019-02-02 14:40:32.3395|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 177.5565ms 200 image/png
+2019-02-02 14:40:32.4141|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 240.3703ms 500 text/html; charset=utf-8
+2019-02-02 14:43:46.4519|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/  
+2019-02-02 14:43:46.7864|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 459.9797ms 301 
+2019-02-02 14:43:46.8362|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/index.html  
+2019-02-02 14:43:47.1741|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger-ui-standalone-preset.js  
+2019-02-02 14:43:47.1959|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 301.4302ms 200 text/html
+2019-02-02 14:43:47.2229|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger-ui-bundle.js  
+2019-02-02 14:43:47.2542|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger-ui.css  
+2019-02-02 14:43:47.3256|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-02-02 14:43:47.3256|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2019-02-02 14:43:47.5149|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2019-02-02 14:43:48.0874|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 908.3791ms 200 application/javascript
+2019-02-02 14:43:48.1054|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 865.8877ms 200 application/javascript
+2019-02-02 14:43:48.1199|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 789.324ms 200 text/css
+2019-02-02 14:43:48.6939|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/v1/swagger.json  
+2019-02-02 14:43:49.0008|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/favicon-32x32.png  
+2019-02-02 14:43:49.0439|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2019-02-02 14:43:49.0766|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 204.1218ms 200 image/png
+2019-02-02 14:43:49.1274|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/favicon-16x16.png  
+2019-02-02 14:43:49.1493|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2019-02-02 14:43:49.1753|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 50.9849ms 200 image/png
+2019-02-02 14:43:49.5732|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2019-02-02 14:43:49.7112|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1013.3242ms 500 text/html; charset=utf-8
+2019-02-02 14:56:59.9526|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/index.html  
+2019-02-02 14:57:01.0263|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1116.9648ms 404 
+2019-02-02 14:57:06.2459|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/index.html  
+2019-02-02 14:57:06.4809|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 217.4945ms 200 text/html
+2019-02-02 14:57:06.8889|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/v1/swagger.json  
+2019-02-02 14:57:07.1011|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2019-02-02 14:57:07.2018|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 343.3206ms 500 text/html; charset=utf-8
+2019-02-02 14:59:04.2664|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/index.html  
+2019-02-02 14:59:05.5162|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1165.5999ms 404 
+2019-02-02 14:59:43.9228|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/index.html  
+2019-02-02 14:59:44.1800|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 255.9168ms 200 text/html
+2019-02-02 14:59:45.1066|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/v1/swagger.json  
+2019-02-02 14:59:45.6090|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 501.2912ms 200 application/json;charset=utf-8
+2019-02-02 15:00:39.6325|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/api/Product/GetProducts  
+2019-02-02 15:00:39.8358|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.3-rtm-10026 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-02 15:00:39.9779|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (109ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-02 15:00:40.0298|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (42ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-02 15:00:40.0896|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (46ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-02-02 15:00:40.1111|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-02-02 15:00:40.2907|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Controllers.ProductController.GetProducts (CoreBackend) with arguments ((null)) - ModelState is Valid
+2019-02-02 15:00:40.5947|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (68ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Description], [x].[Name], [x].[Price]
+FROM [Products] AS [x]
+ORDER BY [x].[Name]
+2019-02-02 15:00:40.6851|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value CoreBackend.Dtos.BaseResponse`1[System.Collections.Generic.List`1[CoreBackend.Dtos.ProductWithoutMaterialDto]].
+2019-02-02 15:00:40.7568|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Controllers.ProductController.GetProducts (CoreBackend) in 977.0258ms
+2019-02-02 15:00:40.7807|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1134.8687ms 200 application/json; charset=utf-8
+2019-02-02 15:05:01.7001|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger  
+2019-02-02 15:05:01.9891|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 392.8889ms 301 
+2019-02-02 15:05:02.0319|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/index.html  
+2019-02-02 15:05:02.2795|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 220.6661ms 200 text/html
+2019-02-02 15:05:02.6638|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/v1/swagger.json  
+2019-02-02 15:05:03.3256|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 669.3706ms 200 application/json;charset=utf-8
+2019-02-02 15:05:09.3350|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/v1/swagger.json  
+2019-02-02 15:05:09.3754|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 52.6637ms 200 application/json;charset=utf-8

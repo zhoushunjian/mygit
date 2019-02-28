@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoreBackend</name>
+    </assembly>
+    <members>
+        <member name="T:CoreBackend.Controllers.ProductController">
+            <summary>
+            产品控制器
+            </summary>
+        </member>
+        <member name="M:CoreBackend.Controllers.ProductController.GetProducts">
+            <summary>
+            获取所有产品
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CoreBackend.Controllers.ProductController.GetProduct(System.Int32,System.Boolean)">
+            <summary>
+            获取产品根据主键
+            </summary>
+            <param name="id"></param>
+            <param name="includeMaterial"></param>
+        </member>
+        <member name="T:CoreBackend.Filter.ActionFilter">
+            <summary>
+            方法拦截器
+            </summary>
+        </member>
+        <member name="T:CoreBackend.Filter.ExceptionFilter">
+            <summary>
+            异常拦截器
+            </summary>
+        </member>
+        <member name="T:CoreBackend.Filter.SkipActionFilter">
+            <summary>
+            方法跳过/忽略拦截拦截器
+            </summary>
+        </member>
+    </members>
+</doc>

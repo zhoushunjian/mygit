@@ -1,0 +1,99 @@
+2019-02-13 11:05:04.8936|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/index.html  
+2019-02-13 11:05:05.6061|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/swagger-ui-standalone-preset.js  
+2019-02-13 11:05:05.6324|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/swagger-ui.css  
+2019-02-13 11:05:05.7279|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/swagger-ui-bundle.js  
+2019-02-13 11:05:05.6415|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 799.3742ms 200 text/html
+2019-02-13 11:05:05.7946|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /swagger-ui.css was not modified
+2019-02-13 11:05:05.9151|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 257.612ms 304 text/css
+2019-02-13 11:05:05.9763|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /swagger-ui-standalone-preset.js was not modified
+2019-02-13 11:05:06.0308|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /swagger-ui-bundle.js was not modified
+2019-02-13 11:05:06.0492|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 410.1649ms 304 application/javascript
+2019-02-13 11:05:06.0959|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 461.0291ms 304 application/javascript
+2019-02-13 11:05:06.4588|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/v1/swagger.json  
+2019-02-13 11:05:06.5957|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/favicon-32x32.png  
+2019-02-13 11:05:06.6440|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2019-02-13 11:05:06.6717|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 126.2375ms 200 image/png
+2019-02-13 11:05:06.7169|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/favicon-16x16.png  
+2019-02-13 11:05:06.7448|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /favicon-16x16.png was not modified
+2019-02-13 11:05:06.7638|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 64.1821ms 304 image/png
+2019-02-13 11:05:07.3633|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 897.2601ms 200 application/json;charset=utf-8
+2019-02-13 11:05:13.1295|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:46723/api/product/addproduct application/x-www-form-urlencoded 50
+2019-02-13 11:05:13.3433|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.3-rtm-10026 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-13 11:05:13.4838|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (96ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-13 11:05:13.5377|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (44ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-13 11:05:13.5920|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (41ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-02-13 11:05:13.6077|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-02-13 11:05:13.7277|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 415
+2019-02-13 11:05:13.7497|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Controllers.ProductController.AddProduct (CoreBackend) in 416.5083ms
+2019-02-13 11:05:13.7673|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 637.5577ms 415 
+2019-02-13 11:05:25.5815|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:46723/api/product/addproduct application/json 50
+2019-02-13 11:05:25.6042|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.3-rtm-10026 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-13 11:05:25.6552|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (39ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-13 11:05:25.7020|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-13 11:05:25.7631|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (48ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-02-13 11:05:25.7768|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-02-13 11:05:29.4301|FATAL|CoreBackend.Filter.ExceptionFilter|testException
+2019-02-13 11:05:29.4469|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value CoreBackend.Dtos.BaseResponse.
+2019-02-13 11:05:29.4646|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Controllers.ProductController.AddProduct (CoreBackend) in 3869.7494ms
+2019-02-13 11:05:29.4815|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3899.1445ms 200 application/json; charset=utf-8
+2019-02-13 11:05:41.6426|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:46723/api/product/addproduct application/json 50
+2019-02-13 11:05:41.6526|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.3-rtm-10026 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-13 11:05:41.6958|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (33ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-13 11:05:41.7388|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (33ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-13 11:05:41.7792|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (30ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-02-13 11:05:41.7906|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-02-13 11:05:41.8892|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Controllers.ProductController.AddProduct (CoreBackend) with arguments (CoreBackend.Dtos.AddProduct) - ModelState is Valid
+2019-02-13 11:05:41.9085|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value CoreBackend.Dtos.BaseResponse`1[CoreBackend.Dtos.ProductDto].
+2019-02-13 11:05:41.9275|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Controllers.ProductController.AddProduct (CoreBackend) in 275.139ms
+2019-02-13 11:05:41.9443|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 294.9484ms 200 application/json; charset=utf-8
+2019-02-13 11:10:47.5769|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/index.html  
+2019-02-13 11:10:48.1647|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 639.4008ms 200 text/html
+2019-02-13 11:10:48.4583|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/v1/swagger.json  
+2019-02-13 11:10:49.0635|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 604.0867ms 200 application/json;charset=utf-8
+2019-02-13 11:11:03.9886|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:46723/api/Product/AddProduct application/json-patch+json 65
+2019-02-13 11:11:04.2277|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.3-rtm-10026 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-13 11:11:04.3547|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (88ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-13 11:11:04.4080|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (39ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-02-13 11:11:04.4792|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (52ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-02-13 11:11:04.5104|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-02-13 11:11:04.7654|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreBackend.Controllers.ProductController.AddProduct (CoreBackend) with arguments (CoreBackend.Dtos.AddProduct) - ModelState is Valid
+2019-02-13 11:11:04.7979|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value CoreBackend.Dtos.BaseResponse`1[CoreBackend.Dtos.ProductDto].
+2019-02-13 11:11:04.8380|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreBackend.Controllers.ProductController.AddProduct (CoreBackend) in 633.2868ms
+2019-02-13 11:11:04.8380|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 866.2416ms 200 application/json; charset=utf-8
+2019-02-13 15:05:25.1343|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/index.html  
+2019-02-13 15:05:25.8835|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 831.0627ms 200 text/html
+2019-02-13 15:05:26.5199|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/v1/swagger.json  
+2019-02-13 15:05:27.3431|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 913.1028ms 200 application/json;charset=utf-8
+2019-02-13 15:05:29.3321|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/swagger-ui-bundle.js.map  
+2019-02-13 15:05:29.3437|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/swagger-ui.css.map  
+2019-02-13 15:05:29.3581|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/swagger-ui-standalone-preset.js.map  
+2019-02-13 15:05:29.4514|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+2019-02-13 15:05:29.4514|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+2019-02-13 15:05:29.4514|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css.map'. Physical path: 'N/A'
+2019-02-13 15:05:29.5121|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 152.8751ms 200 text/plain
+2019-02-13 15:05:29.7528|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 379.5139ms 200 text/plain
+2019-02-13 15:05:30.0259|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 690.8125ms 200 text/plain
+2019-02-13 15:05:53.9829|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/index.html  
+2019-02-13 15:05:54.7916|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 958.1014ms 200 text/html
+2019-02-13 15:05:55.3183|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:46723/swagger/v1/swagger.json  
+2019-02-13 15:05:56.5979|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1221.3218ms 200 application/json;charset=utf-8
